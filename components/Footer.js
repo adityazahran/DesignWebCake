@@ -48,7 +48,6 @@ export default function footer() {
                     <button type="submit" className="px-6 py-4 w-full bg-primary">Submit</button>
                 </div>
             </div>
-
         </footer>
     );
 }
