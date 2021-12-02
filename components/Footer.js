@@ -1,7 +1,7 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
 
-export default function (props) {
+export default function footer() {
     return (
         <footer className="py-16 px-6 bg-secondary text-white">
             <div className="flex">

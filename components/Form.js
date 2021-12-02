@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function (props) {
+export default function form() {
     return (
         <form className="w-full max-w-lg mx-auto">
             <div className="flex flex-wrap -mx-3 mb-6">

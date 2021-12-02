@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/Layout'
 import Form from '../components/Form'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -13,7 +12,12 @@ export default function Home() {
         <div className="container z-10 py-16">
           <div className="flex justify-around">
             <div className="text-white text-center text-sm space-y-2">
-              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full te" />
+              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full" />
+              <span>Desert</span>
+              <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div className="text-white text-center text-sm space-y-2">
+              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full" />
               <span>Desert</span>
               <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
@@ -23,12 +27,7 @@ export default function Home() {
               <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
             <div className="text-white text-center text-sm space-y-2">
-              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full te" />
-              <span>Desert</span>
-              <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
-            </div>
-            <div className="text-white text-center text-sm space-y-2">
-              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full te" />
+              <img src="https://source.unsplash.com/90x90" alt="" className="mx-auto rounded-full" />
               <span>Desert</span>
               <p className="">Lorem ipsum dolor sit amet, consectetur.</p>
             </div>
