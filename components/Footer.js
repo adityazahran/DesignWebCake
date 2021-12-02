@@ -1,5 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
+import Link from 'next/link'
 
 export default function footer() {
     return (
@@ -36,9 +37,9 @@ export default function footer() {
                 </div>
                 <div className="w-3/12 space-y-4">
                     <h3 className="text-2xl font-semibold mb-5">Instagram</h3>
-                    <a href="#" className="">
+                    <Link href="#" className="">
                         <img src="https://source.unsplash.com/170x110" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="w-3/12 space-y-4">
                     <h3 className="text-2xl font-semibold">Newsletter</h3>
